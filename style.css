@@ -1,0 +1,29 @@
+body, .card{
+     background-color: rgb(2, 2, 37);
+     height: 100vh;
+     width: 100%;
+}
+h1,h2,h5,p{
+     color: aliceblue;
+}
+
+.checked {
+     color: orange;
+}
+
+.btn {
+     background-color: rgb(2, 21, 40);
+     border: none;
+     color: white;
+     padding: 12px 30px;
+     cursor: pointer;
+     font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+     background-color: rgb(237, 1, 1);
+}
+.card-body{
+     border: 50px;
+}
