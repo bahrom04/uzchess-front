@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./output.css" rel="stylesheet">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <link href="./output.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+  
 </head>
 
-<body class="text-gray-500 text-xl">
-    <div>
+<body class="text-gray-500 text-xl font-body">
+
+    <div class="grid md:grid-cols-4">
     <!-- start wrapper -->
-      <div>
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="text-gray-700 text-2xl uppercase">
@@ -20,7 +23,7 @@
             
           </div>
 
-          <ul>
+          <ul class="flex justify-around md:grid">
             <li>
               <a href="">
                 <span>Home</span>
@@ -49,58 +52,80 @@
         </nav>
       </div>
 
-      <main>
+      <main class="px-16 py-6 bg-gray-100 md:col-span-3">
         
-        <div>
-          <a href="">Login</a>
-          <a href="">Sign up</a>
+        <div class="flex justify-center md:justify-end">
+          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl">Login</a>
+          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl">Sign up</a>
         </div>
 
         <header>
-          <h2 class="font-bold text-6xl">Resipies</h2>
-          <h3 class="text-2xl">For Ninjas</h3>
+          <h2 class="font-bold text-4xl mt-6 pb-2 md:text-6xl">Resipies</h2>
+          <h3 class="text-2xl border-b border-gray-300">For Ninjas</h3>
         </header>
 
-        <div class="rounded-xl bg-gray-400 max-w-md mx-auto md:max-w-2xl">
+        <div class="mt-6 text-base grid grid-col-1 gap-10 md:grid-cols-3">
           <!-- Cards -->
-          <div>
-            <img src="../img/image.png" alt="card1">
+          <div class="bg-white rounded overflow-hidden shadow-md relative">
+            <img src="../img/image.png" alt="card1" class="w-full sm:h-48 object-cover">
             
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block">Recipe by Mario</span>
             </div>
+
+            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden shadow-md relative">
+            <img src="./img/Screenshot 2024-04-29 at 19-04-07 cat cafe tashkent - Поиск в Google.png" alt="card1" class="w-full sm:h-48 object-cover">
+            
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block">Recipe by Mario</span>
+            </div>
+
+            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden shadow-md relative">
+            <img src="./img/Screenshot from 2024-04-30 21-49-30.png" alt="card1" class="w-full sm:h-48 object-cover">
+            
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block">Recipe by Mario</span>
+            </div>
+
+            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden shadow-md relative">
+            <img src="./img/card1.png" alt="card1" class="w-full sm:h-48 object-cover">
+            
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block">Recipe by Mario</span>
+            </div>
+
+            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
           </div>
         </div>
 
-        <h4>Most populars</h4>
+        <h4 class="mt-6 pb-2 border-b border-gray-300">Most populars</h4>
 
-        <!-- cards -->
-        <div>
-          <div>
+       
 
-          </div>
-        </div>
-
-        <div>
-          <div>Load more</div>
+        <div class="flex justify-center">
+          <div class="bg-neutral-600 sm:bg-red-500 md:bg-blue-600 lg:bg-yellow-500 xl:bg-orange-800">Load more</div>
         </div>   
+      
 
       </main>
+
+
     </div>
 
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-      <div class="md:flex">
-        <div class="md:shrink-0">
-          <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/card1.png" alt="Modern building architecture">
-        </div>
-        <div class="p-8">
-          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-          <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-          <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-        </div>
-      </div>
-    </div>
+    
 
 </body>
 </html>
