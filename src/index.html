@@ -6,6 +6,7 @@
     <title>Document</title>
     <!-- <link href="./output.css" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0e35ab6147.js" crossorigin="anonymous"></script>
     
   
 </head>
@@ -15,36 +16,35 @@
     <div class="grid md:grid-cols-4">
     <!-- start wrapper -->
       <div class="md:col-span-1">
-        <nav>
-          <div>
-            <h1 class="text-gray-700 text-2xl uppercase">
+        <nav class="text-right">
+          <div class="md:justify-end flex justify-between items-center">
+            <h1 class="text-gray-700 text-2xl uppercase mt-4">
               <a href="">Food Ninja</a>
             </h1>
+
+            <i class="fa-solid fa-bars md:hidden px-4" id="burger"></i>
             
           </div>
 
-          <ul class="flex justify-around md:grid">
-            <li>
+          <ul class="gap-5 justify-end px-2 hidden md:block" id="menu">
+            <li class="border-r-4 border-red-500 mt-3">
               <a href="">
                 <span>Home</span>
+                <i class="fa-solid fa-house w-4 mr-3"></i>
               </a>
             </li>
 
-            <li>
+            <li class="border-r-4 border-white">
               <a href="">
-                <span>Home 2</span>
+                <span>About</span>
+                <i class="fa-regular fa-address-card w-4 mr-3"></i>
               </a>
             </li>
 
-            <li>
+            <li class="border-r-4 border-white">
               <a href="">
-                <span>Home 3</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="">
-                <span>Home 4</span>
+                <span>Contact</span>
+                <i class="fa-solid fa-envelope w-4 mr-3"></i>
               </a>
             </li>
 
@@ -55,18 +55,20 @@
       <main class="px-16 py-6 bg-gray-100 md:col-span-3">
         
         <div class="flex justify-center md:justify-end">
-          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl">Login</a>
-          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl">Sign up</a>
+          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl md:text-red-400
+          hover:text-white hover:bg-red-400">Login</a>
+          <a href="" class="mr-4 text-base uppercase font-bold px-2 py-3 cursor-pointer md:border-red-400 border-2 rounded-2xl md:text-red-400
+          hover:text-white hover:bg-red-400">Sign up</a>
         </div>
 
         <header>
-          <h2 class="font-bold text-4xl mt-6 pb-2 md:text-6xl">Resipies</h2>
+          <h2 class="text-4xl mt-6 pb-2 md:text-6xl">Resipies</h2>
           <h3 class="text-2xl border-b border-gray-300">For Ninjas</h3>
         </header>
 
         <div class="mt-6 text-base grid grid-col-1 gap-10 md:grid-cols-3">
           <!-- Cards -->
-          <div class="bg-white rounded overflow-hidden shadow-md relative">
+          <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
             <img src="../img/image.png" alt="card1" class="w-full sm:h-48 object-cover">
             
             <div class="m-4">
@@ -74,10 +76,14 @@
               <span class="block">Recipe by Mario</span>
             </div>
 
-            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+            <div class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">
+              <i class="fa-regular fa-clock"></i>
+              <span>24 minutes</span>
+            </div>
+
           </div>
 
-          <div class="bg-white rounded overflow-hidden shadow-md relative">
+          <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
             <img src="./img/Screenshot 2024-04-29 at 19-04-07 cat cafe tashkent - Поиск в Google.png" alt="card1" class="w-full sm:h-48 object-cover">
             
             <div class="m-4">
@@ -85,10 +91,14 @@
               <span class="block">Recipe by Mario</span>
             </div>
 
-            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+            <div class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">
+              <i class="fa-regular fa-clock"></i>
+              <span>24 minutes</span>    
+            </div>
+          
           </div>
 
-          <div class="bg-white rounded overflow-hidden shadow-md relative">
+          <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
             <img src="./img/Screenshot from 2024-04-30 21-49-30.png" alt="card1" class="w-full sm:h-48 object-cover">
             
             <div class="m-4">
@@ -96,10 +106,14 @@
               <span class="block">Recipe by Mario</span>
             </div>
 
-            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+            <div class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">
+              <i class="fa-regular fa-clock"></i>
+              <span>24 minutes</span>    
+            </div>          
+          
           </div>
 
-          <div class="bg-white rounded overflow-hidden shadow-md relative">
+          <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
             <img src="./img/card1.png" alt="card1" class="w-full sm:h-48 object-cover">
             
             <div class="m-4">
@@ -107,7 +121,11 @@
               <span class="block">Recipe by Mario</span>
             </div>
 
-            <span class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">24 minutes</span>
+            <div class="bg-gray-400 text-gray-700 rounded-full font-bold uppercase text-xs p-2 absolute top-0 ml-2 mt-2">
+              <i class="fa-regular fa-clock"></i>
+              <span>24 minutes</span>    
+            </div>          
+          
           </div>
         </div>
 
@@ -117,15 +135,16 @@
 
         <div class="flex justify-center">
           <div class="bg-neutral-600 sm:bg-red-500 md:bg-blue-600 lg:bg-yellow-500 xl:bg-orange-800">Load more</div>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/" >asd<i class="fa-brands fa-square-github fa-lg" ></i></a></li>
+            </ul>
         </div>   
       
 
       </main>
 
-
     </div>
 
-    
-
+    <script src="./index.js"></script>
 </body>
 </html>
