@@ -1,164 +1,36 @@
 import React from "react";
 
-const NewsCard = () => {
+
+const NewsCard = (props) => {
     return (
         <div>
 
             <div>
-                <main class="grid grid-cols-4">
+                <main className="grid grid-cols-4">
 
-                    <div class="gap-10 col-span-3">
-                        <div class="flex justify-between items-center">
-                            <h1 class="font-bold text-3xl px-6">Yangiliklar</h1>
+                    <div className="gap-10 col-span-3">
+                        <div className="flex justify-between items-center">
+                            <h1 className="font-bold text-3xl px-6">Yangiliklar</h1>
 
-                            <i class="fa-solid fa-magnifying-glass mr-9"></i>
+                            <i className="fa-solid fa-magnifying-glass mr-9"></i>
                         </div>
 
-                        <div class="grid grid-cols-3 gap-6 p-6">
+                        <div className="grid grid-cols-3 gap-6 p-6">
 
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="../asserts/nodirbek.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h4 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h4>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/trener.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h4 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h4>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="../asserts/komanda.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h5 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h5>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/komanda.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h4 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h4>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/chessdesk.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h4 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h4>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/president.png" class="w-full sm:h-32 object-cover rounded-md" alt="president portrait" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h5 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h5>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/trener.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h5 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h5>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/vuzgaradok.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h5 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h5>
-                                </div>
-                            </div>
-
-                            <div class="overflow-hidden relative bg-zinc-900 rounded-md p-3">
-
-                                <img src="./asserts/komanda.png" class="w-full sm:h-32 object-cover rounded-md" />
-
-
-                                <div>
-                                    <p class="opacity-50 mt-2">Sentabr 7 2022</p>
-                                </div>
-
-                                <div>
-                                    <h3 class="mt-2 mb-2 leading-5">Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi</h3>
-                                    <h5 class="opacity-75">Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum dol
-                                        eum...</h5>
-                                </div>
-                            </div>
+                            {props.data ? props.data.map((d, i) => {
+                                return (
+                                    <div key={i} className="overflow-hidden relative bg-zinc-900 rounded-md p-3">
+                                        <img src={d.img} className="w-full sm:h-32 object-cover rounded-md" alt={"image" + i}/>
+                                        <div>
+                                            <p className="opacity-50 mt-2">{d.date}</p>
+                                        </div>
+                                        <div>
+                                            <h3 className="mt-2 mb-2 leading-5">{d.title}</h3>
+                                            <h4 className="opacity-75">{d.context}</h4>
+                                        </div>
+                                    </div>
+                                );
+                            }) : "Loading"}
 
                         </div>
                     </div>

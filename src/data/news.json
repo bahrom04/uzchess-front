@@ -1,0 +1,46 @@
+{
+    "NewsCard": [
+        {
+        "img": "../asserts/nodirbek.png",
+        "date": "Sentabr 7 2022",
+        "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+        "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/trener.png",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/komanda.png",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/carlsen.jpg",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/vuzgaradok.png",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/chessdesk.png",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        },
+        {
+            "img": "../asserts/trener.png",
+            "date": "Sentabr 7 2022",
+            "title": "Nodirber adddbudsaator FIDE JAHIN chemoiinatida 2700 reytinh aolfdi",
+            "context": "Ozbekiston mos corrupti omnis? bekiston yoish Lorem ipsum doleum..."
+        }
+]
+}
