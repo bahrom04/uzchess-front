@@ -1,0 +1,24 @@
+{
+    "books": [
+        {
+            "img": "../asserts/books/2.png",
+            "title": "Shahmat donalari bilann tanishuv",
+            "author": "John Doe"
+        },
+        {
+            "img": "../asserts/books/3.png",
+            "title": "Advanced Chess",
+            "author": "John Doe"
+        },
+        {
+            "img": "../asserts/books/4.png",
+            "title": "Yevropa shaxmati",
+            "author": "Boobi Fisher"
+        },
+        {
+            "img": "../asserts/books/chessbook1.png",
+            "title": "America vs USSR",
+            "author": "Legend Noah"
+        }
+    ]
+}

@@ -15,11 +15,13 @@ import Main from './components/Main';
 import Library from './components/Library';
 
 // Api data
-import News from "./data/news.json";
+import news from "./data/news.json";
+import books from "./data/books.json"
 
 
 function App() {
-  const [pageData] = useState(News)
+  const [newsData] = useState(news)
+  const [booksData] = useState(books)
 
   return (
     <Router>
@@ -30,12 +32,10 @@ function App() {
           <Routes>
 
             <Route path="/" element={<Main />} />
-            <Route path="/news" element={<NewsCard data={pageData.NewsCard} />} />
+            <Route path="/news" element={<NewsCard news={newsData.news} books={booksData.books} />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/library" element={<Library />} />
-
-
-
+            
           </Routes>
         </div>
 
