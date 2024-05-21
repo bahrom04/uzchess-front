@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 
 import NewsCard from './components/NewsCard';
+import NewsDetail from './components/NewsDetail';
 import Courses from './components/Courses';
 import Main from './components/Main';
 import Library from './components/Library';
@@ -33,6 +34,7 @@ function App() {
 
             <Route path="/" element={<Main />} />
             <Route path="/news" element={<NewsCard news={newsData.news} books={booksData.books} />} />
+            <Route path="/news/1" element={<NewsDetail/>} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/library" element={<Library />} />
             
